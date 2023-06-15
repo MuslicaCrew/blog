@@ -1,0 +1,40 @@
+body {
+    font-family: RandyGG, serif;
+}
+
+.title {
+    font-size: 8rem;
+    text-align: center;
+}
+
+.text {
+    margin-top: 3rem;
+    font-size: 6rem;
+    position: relative;
+
+}
+
+
+.caret {
+    display: inline-block;
+    width: 0.25rem;
+    height: 1em;
+    background-color: black;
+    vertical-align: middle;
+    animation: blink-animation 1.25s steps(2, start) infinite ;
+}
+
+.text span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@keyframes blink-animation {
+    from {
+        visibility: visible;
+    }
+    to {
+        visibility: hidden;
+    }
+}
+
